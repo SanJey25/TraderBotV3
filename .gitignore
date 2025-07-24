@@ -1,5 +1,28 @@
-.env
+# Ignore Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+
+# Ignore system files (especially on Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folders (name may vary)
+venv/
+env/
+.venv/
+.env/
+
+# Ignore log files
+*.log
+
+# Ignore image and data folders
 images/
 data/
+
+# Ignore VS Code settings (optional)
+.vscode/
